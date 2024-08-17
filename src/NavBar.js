@@ -6,7 +6,7 @@ import notificationIcon from './Notification.png';
 import settingsIcon from './Settings-alt.png';
 import userIcon from './Icon.png';
 
-const Navbar = () => {
+ export default function Navbar() {
   return (
     <nav className="navbar">
         <div className="navbar-left">
@@ -30,5 +30,3 @@ const Navbar = () => {
     </nav>
     );
 };
-
-export default Navbar;
