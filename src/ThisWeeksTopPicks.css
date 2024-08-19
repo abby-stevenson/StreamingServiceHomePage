@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #202020;
-    height: 50%;
+    
 }
 
 body {
@@ -28,7 +28,21 @@ h1 {
 }
 
 .grid-movies {
-    display: grid;
+    display: flex;
     padding: 20px;
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
 }
 
+.row {
+    display: flex;
+    
+}
+
+.entry {
+    position: relative;
+    text-align: right;
+    
+}

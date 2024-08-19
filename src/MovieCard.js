@@ -5,7 +5,9 @@ import StarRating from './StarRating'
 export default function MovieCard({title, rating, genres, url }) {
     return (
         <div className = 'movie-card'>
-            <img src={url} alt="Movie Poster"/>
+            <div className = "movie-image">
+                <img src={url} alt="Movie Poster"/>
+            </div>
             <div class="title">{title}</div>
             <div class = "rating">
                 <StarRating score = {rating} />    

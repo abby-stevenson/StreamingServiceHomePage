@@ -1,5 +1,6 @@
 import './ThisWeeksTopPicks.css';
-import logo from './logo.png';
+import FeatureMovieCard from './FeatureMovieCard.js';
+import MovieCard from './MovieCard.js';
 
 export default function ThisWeeksTopPicks() {
     return (
@@ -8,18 +9,38 @@ export default function ThisWeeksTopPicks() {
             This Week's Top Picks
         </h1>
         <div className="top-picks">
-            
             <div className="main-focus">
-                <img src={logo} alt="Logo"/>
+                <FeatureMovieCard 
+                        title = {"Fantastic Mr. Fox"}
+                        directors = {["Wes Anderson"]}
+                        rating = {93}
+                        genres = {["Family", "Comedy"]}
+                        url = {"https://i.imgur.com/PDpAJLK.jpg"} />
             </div>
             <div className="grid-movies">
-                <div>
-                    <img src={logo} alt="Logo"/>
-                    <img src={logo} alt="Logo"/>
+                <div className = "row">
+                        <MovieCard 
+                        title = {"Fantastic Mr. Fox"}
+                        rating = {93}
+                        genres = {["Family", "Comedy"]}
+                        url = {"https://i.imgur.com/PDpAJLK.jpg"} />
+                        <MovieCard 
+                        title = {"Dune: Part 2"}
+                        rating = {92}
+                        genres = {["Sci-Fi", "Adventure"]}
+                        url = {"https://i.imgur.com/UQHlMQ1.jpg"} />
                 </div>
-                <div>
-                    <img src={logo} alt="Logo"/>
-                    <img src={logo} alt="Logo"/>
+                <div className = "row">
+                        <MovieCard 
+                        title = {"Dune: Part 2"}
+                        rating = {92}
+                        genres = {["Sci-Fi", "Adventure"]}
+                        url = {"https://i.imgur.com/UQHlMQ1.jpg"} />
+                        <MovieCard 
+                        title = {"Fantastic Mr. Fox"}
+                        rating = {93}
+                        genres = {["Family", "Comedy"]}
+                        url = {"https://i.imgur.com/PDpAJLK.jpg"} />
                 </div>
             </div>
         </div>

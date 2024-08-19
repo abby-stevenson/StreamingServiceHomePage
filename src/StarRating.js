@@ -1,7 +1,6 @@
 import starFull from './Star.png';
 import halfStar from './HalfStar.png';
 
-
 export default function StarRating({ score }) {
     const stars = [];
     const fullStars = Math.floor(score / 20);

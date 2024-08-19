@@ -1,5 +1,4 @@
 import './YourRecommendations.css';
-import logo from './logo.png';
 import arrow from './arrow.png';
 import axios from 'axios';
 import MovieCard from './MovieCard.js';

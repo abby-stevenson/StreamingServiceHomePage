@@ -1,48 +1,51 @@
-.movie-card {
+.featured-movie-card {
     position: relative;
     text-align: center;
     color: white;
     font-family: "Manrope", sans-serif;
-    margin: 0 8px; 
-    width: 100%;
+    margin: 0 8px;  
+    width: 50%;
 }
 
-.movie-card .movie-image img {
-    max-width: 100%;
+.featured-movie-card .feature-movie-image img {
     border-radius: 20px; 
+    height: auto;
     opacity: 0.5;
 }
 
-.title {
-    position: absolute;
-    top: 28%;
-    left: 0%;
-    font-size: 115%;
-    font-weight: bold;
-    padding: 40px;
-}
-
-.rating {
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    padding: 40px;
-}
-
-.genres {
+.feature-title {
     position: absolute;
     top: 50%;
     left: 0%;
+    font-size: 175%;
+    font-weight: bold;
     padding: 40px;
-    font-size: 80%;
+}
+.description {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    font-size: 100%;
+    padding: 40px;
 }
 
-.movie-card .genres img {
+.extra-information {
+    display: flex;
+    position: absolute;
+    padding: 40px;
+    top: 70%;
+    left: 0%;
+    font-size: 80%;
+    
+
+}
+.feature-rating {
+    margin: 0 16px; 
+    
+}
+
+.featured-movie-card .feature-genres img {
     margin: 0 8px; 
     width: 5px; 
     height: 5px; 
 }
-
-
-
-  
