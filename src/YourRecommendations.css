@@ -14,9 +14,8 @@ h1 {
 .recommendations {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header {
@@ -68,15 +67,13 @@ h1 {
     margin-right: 8px; 
 }
 
-.movies {
-    display: flex;
-}
 
 .entry {
     position: relative;
     text-align: right;
-    max-width: 20%;
-    max-width: 20%; 
+    max-width: 18%; 
+    max-height: 100%;
+    margin: 10px 10px; 
 }
 
 .entry label {
@@ -90,3 +87,4 @@ h1 {
     font-weight: bold;
 
 }
+

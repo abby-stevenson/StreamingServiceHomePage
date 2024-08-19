@@ -8,8 +8,8 @@
 }
 
 .featured-movie-card .feature-movie-image img {
+    max-width: 200%;
     border-radius: 20px; 
-    height: auto;
     opacity: 0.5;
 }
 

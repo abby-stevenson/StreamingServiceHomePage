@@ -1,9 +1,7 @@
 .top-picks {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #202020;
-    
 }
 
 body {
@@ -25,12 +23,12 @@ h1 {
     align-items: left;
     width: 50%;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .grid-movies {
     display: flex;
     padding: 20px;
-    justify-content: flex-end; 
     flex-wrap: wrap;
     gap: 20px;
     width: 50%;

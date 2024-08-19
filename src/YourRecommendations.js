@@ -30,7 +30,6 @@ export default function YourRecommendations() {
             </div>
         </div>
         <div className="recommendations">
-            <div className="movies">
                 <div className = "entry">
                     <label>1</label>
                     <MovieCard 
@@ -72,7 +71,6 @@ export default function YourRecommendations() {
                     url = {"https://i.imgur.com/PDpAJLK.jpg"} />
                 </div>
             </div>
-        </div>
         </body>
         );
 };
