@@ -1,4 +1,4 @@
-.movie-card {
+.continue-watching-movie-card {
     position: relative;
     text-align: center;
     color: white;
@@ -13,29 +13,23 @@
     text-overflow: ellipsis;
 }
 
-.movie-card .movie-image img {
+.continue-watching-movie-card .continue-watching-image img {
     max-width: 100%;
     border-radius: 20px; 
     opacity: 0.5;
 }
 
-.title {
+.continue-watching-title {
     position: absolute;
     top: 28%;
     left: 0%;
     font-size: 1.25vw;
     font-weight: bold;
     padding: 40px;
+    
 }
 
-.rating {
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    padding: 40px;
-}
-
-.genres {
+.continue-watching-genres {
     position: absolute;
     top: 50%;
     left: 0%;
@@ -43,12 +37,18 @@
     font-size: 0.9vw;
 }
 
-.movie-card .genres img {
+.continue-watching-movie-card .continue-watching-genres img {
     margin: 0 8px; 
     width: 5px; 
     height: 5px; 
 }
 
-
+.continue-watching-duration {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    padding: 40px;
+    font-size: 0.9vw;
+}
 
   

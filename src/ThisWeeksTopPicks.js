@@ -4,7 +4,7 @@ import MovieCard from './MovieCard.js';
 
 export default function ThisWeeksTopPicks() {
     return (
-        <body>
+        <div>
         <h1>
             This Week's Top Picks
         </h1>
@@ -44,6 +44,6 @@ export default function ThisWeeksTopPicks() {
                 </div>
             </div>
         </div>
-        </body>
+        </div>
         );
 };

@@ -1,31 +1,24 @@
 import './YourRecommendations.css';
 import arrow from './arrow.png';
-import axios from 'axios';
 import MovieCard from './MovieCard.js';
+import { Link } from 'react-router-dom';
 
 
 export default function YourRecommendations() {
-    axios.get('https://api.moviesdb.com/frontend/movies?type=top')
-        .then(response => {
-            console.log(response.data);
-        })
-        .catch(error => {
-            console.log(error);
-        });
     return (
-        <body>
+        <div>
         <div className = "header">
             <h1>
                 Your Recommendations
             </h1>
-            <div class="dropdown">
-                <button class="dropdown-btn">
+            <div className="dropdown">
+                <button className="dropdown-btn">
                     <img src={arrow} alt="Arrow"/>
                     Recommendations
                 </button>
-                <div class="dropdown-content">
-                    <a> Recommendations </a>
-                    <a href="#">Continue Watching</a>
+                <div className="dropdown-content">
+                    <a href="#"> Recommendations </a>
+                    <Link to="/continue-watching">Continue Watching</Link>
                 </div>
             </div>
         </div>
@@ -71,6 +64,6 @@ export default function YourRecommendations() {
                     url = {"https://i.imgur.com/PDpAJLK.jpg"} />
                 </div>
             </div>
-        </body>
+        </div>
         );
 };

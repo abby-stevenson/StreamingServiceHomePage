@@ -22,10 +22,10 @@ import userIcon from './Icon.png';
                     <button className='nav-button'>Series</button>
             </div>
         </div>
-        <div className="navbar-right">
-            <button class="icon-button"> <img src={notificationIcon} alt="Notifications"/></button>
-            <button class="icon-button"> <img src={userIcon} alt="User"/></button>
-            <button class="icon-button"> <img src={settingsIcon} alt="Setting"/></button>
+        <div className ="navbar-right">
+            <button className = "icon-button"> <img src={notificationIcon} alt="Notifications"/></button>
+            <button className = "icon-button"> <img src={userIcon} alt="User"/></button>
+            <button className = "icon-button"> <img src={settingsIcon} alt="Setting"/></button>
         </div>
     </nav>
     );

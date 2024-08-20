@@ -8,15 +8,15 @@ export default function FeatureMovieCard({title, directors, rating, genres, url 
             <div className = "feature-movie-image">
                 <img src={url} alt="Movie Poster"/>
             </div>
-            <div class="feature-title">{title}</div>
-            <div class = "description">A film by {directors}</div>
-            <div class = "extra-information">  
-                <div class = "feature-genres">
+            <div className ="feature-title">{title}</div>
+            <div className = "feature-description">A film by {directors}</div>
+            <div className = "extra-information">  
+                <div className = "feature-genres">
                     {genres[0]}
                     <img src={ellipse} alt="Ellipse"/>
                     {genres[1]}
                 </div>
-                <div class = "feature-rating">
+                <div className = "feature-rating">
                     <StarRating score = {rating} />    
                 </div>  
             </div>    

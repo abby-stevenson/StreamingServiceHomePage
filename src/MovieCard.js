@@ -8,11 +8,11 @@ export default function MovieCard({title, rating, genres, url }) {
             <div className = "movie-image">
                 <img src={url} alt="Movie Poster"/>
             </div>
-            <div class="title">{title}</div>
-            <div class = "rating">
+            <div className = "title">{title}</div>
+            <div className = "rating">
                 <StarRating score = {rating} />    
             </div>        
-            <div class = "genres">
+            <div className = "genres">
                 {genres[0]}
                 <img src={ellipse} alt="Ellipse"/>
                 {genres[1]}
