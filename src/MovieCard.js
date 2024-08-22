@@ -2,6 +2,7 @@ import './MovieCard.css';
 import ellipse from './Ellipse.png';
 import StarRating from './StarRating'
 
+//creates a component that is a standard movie card to be display on various screens in the app
 export default function MovieCard({title, rating, genres, url }) {
     return (
         <div className = 'movie-card'>

@@ -1,10 +1,7 @@
+/* The whole page */
 .top-picks {
     display: flex;
     align-items: center;
-    background-color: #202020;
-}
-
-body {
     background-color: #202020;
 }
 
@@ -18,6 +15,7 @@ h1 {
 
 }
 
+/* The larger movie card on the left */
 .main-focus {
     display: flex;
     align-items: left;
@@ -26,6 +24,7 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* The grid on the right hand side */
 .grid-movies {
     display: flex;
     padding: 20px;
@@ -34,11 +33,13 @@ h1 {
     width: 50%;
 }
 
+/* A single row in the grid of movies */
 .row {
     display: flex;
     
 }
 
+/* A single movie card in the grid of movies */
 .entry {
     position: relative;
     text-align: right;

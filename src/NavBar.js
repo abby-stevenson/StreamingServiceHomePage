@@ -6,6 +6,7 @@ import notificationIcon from './Notification.png';
 import settingsIcon from './Settings-alt.png';
 import userIcon from './Icon.png';
 
+/* Component that produces the Navbar to be displayed at the top of each page */
  export default function Navbar() {
   return (
     <nav className="navbar">

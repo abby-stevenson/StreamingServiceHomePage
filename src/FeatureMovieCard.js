@@ -2,6 +2,7 @@ import './FeatureMovieCard.css';
 import ellipse from './Ellipse.png';
 import StarRating from './StarRating'
 
+//component that produces a movie card that is larger on the page
 export default function FeatureMovieCard({title, directors, rating, genres, url }) {
     return (
         <div className = 'featured-movie-card'>

@@ -1,3 +1,4 @@
+/* The whole nav bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -5,17 +6,20 @@
     background-color: #202020;
 }
 
+/* The icons */
 .navbar-right {
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
+/* The words */
 .navbar-center {
     display: flex;
     align-items: left;
 }
 
+/* The logo */
 .navbar-left {
     display: flex;
     align-items: left;
@@ -23,7 +27,7 @@
     padding: 20px;
 }
   
- 
+ /* The words */
 .nav-button {
     background-color: #202020;
     border: none;
@@ -41,7 +45,8 @@
 .nav-button:hover {
     color: #94E5FF
 }
-  
+
+/* The icons */
 .icon-button {
     background-color: #202020;
     border: none;

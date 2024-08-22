@@ -1,10 +1,12 @@
 .continue-watching-movie-card {
+     /*Sets the position to relative so that the text can be placed on top*/
     position: relative;
     text-align: center;
     color: white;
     font-family: "Manrope", sans-serif;
     margin: 0 8px; 
     width: 100%;
+    /* Sets the text so it shrinks with the movie card*/
     flex-shrink: 1; 
     min-width: 0; 
     max-width: 100%;

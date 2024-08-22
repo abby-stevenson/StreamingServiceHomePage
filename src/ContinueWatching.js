@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import arrow from './arrow.png';
 import './YourRecommendations.css';
 
+//component that displays the movies that the user is currently watching
 export default function ContinueWatching() {
     return (
     <div>

@@ -2,6 +2,7 @@ import './ThisWeeksTopPicks.css';
 import FeatureMovieCard from './FeatureMovieCard.js';
 import MovieCard from './MovieCard.js';
 
+/* Compoent that displays the top picks */
 export default function ThisWeeksTopPicks() {
     return (
         <div>

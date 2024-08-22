@@ -1,6 +1,7 @@
 import './ContinueWatchingMovieCard.css';
 import ellipse from './Ellipse.png';
 
+//component that produces a movie card that shows that user how long is left on that movie
 export default function ContinueWatchingMovieCard({title, duration, genres, url }) {
     return (
         <div className = 'continue-watching-movie-card'>

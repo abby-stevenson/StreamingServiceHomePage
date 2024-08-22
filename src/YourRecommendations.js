@@ -3,7 +3,8 @@ import arrow from './arrow.png';
 import MovieCard from './MovieCard.js';
 import { Link } from 'react-router-dom';
 
-
+/* Component that displays the recommended movies and the drop down box to pick between recommended movies
+and continue watching */
 export default function YourRecommendations() {
     return (
         <div>
