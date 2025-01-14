@@ -1,3 +1,28 @@
+# Streaming Service Home Page 
+
+Modelled off a figma for a hypothetical streaming service. 
+At the moment, uses mock data to showcase the different movies on offer.
+
+# Images of the Website 
+
+![image](https://github.com/user-attachments/assets/3dbd6554-3b7c-47ac-a267-c768e56ec8c3)
+
+![image](https://github.com/user-attachments/assets/32880c65-eb7b-429e-8f34-84be7b0a9c89)
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/c1b567ba-9f54-43fb-8397-dd7161cae11b" />
+(with the cursor hovering over the recommendations button)
+
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/f60282bd-e733-4445-8943-c040d42afc9f" />
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
